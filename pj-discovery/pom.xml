@@ -9,9 +9,9 @@
 
     <parent>
         <groupId>com.tcpj.pj</groupId>
-        <artifactId>pjpom</artifactId>
+        <artifactId>pj-pom</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../pjpom/pom.xml</relativePath>
+        <relativePath>../pj-pom/pom.xml</relativePath>
     </parent>
 
 

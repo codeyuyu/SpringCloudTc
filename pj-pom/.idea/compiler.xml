@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="pj-discovery" />
+        <module name="pj-feign" />
         <module name="pj-order" />
       </profile>
     </annotationProcessing>

@@ -1,11 +1,9 @@
-server:
-  port: 8760
-
-spring:
-  application:
-    name: service-order
-
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8765
+spring:
+  application:
+    name: service-feign
