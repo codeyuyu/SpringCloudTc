@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="378ebff9-734e-455e-9c68-afd13b9d551c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../pj-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pj-feign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pj-feign/src/main/java/com/tcpj/pj/pjfeign/PjFeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pj-feign/src/main/java/com/tcpj/pj/pjfeign/PjFeignApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pj-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../pj-feign/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="68fe2840-5d56-40f5-85f6-c6c23ad0fcb2" name="uncommit" comment="" />
@@ -23,6 +20,7 @@
     <session id="561210025">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -30,7 +28,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="52" />
-          <entry key="txt" value="19" />
+          <entry key="txt" value="24" />
           <entry key="xml" value="29" />
           <entry key="yml" value="47" />
         </counts>
@@ -38,7 +36,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="52" />
-          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="PLAIN_TEXT" value="24" />
           <entry key="XML" value="29" />
           <entry key="YAML" value="47" />
         </counts>
@@ -97,8 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../pj-feign/src/main/java/com/tcpj/pj/pjfeign/PjFeignApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="135">
+              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#435#436#0" expanded="true" />
@@ -379,7 +377,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548230679468" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548230716264" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -436,7 +434,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548207193229</updated>
-      <workItem from="1548207196451" duration="12947000" />
+      <workItem from="1548207196451" duration="13588000" />
     </task>
     <task id="LOCAL-00001" summary="服务调用">
       <created>1548227687843</created>
@@ -445,11 +443,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548227687843</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加断路器">
+      <created>1548230703005</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548230703005</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12947000" />
+    <option name="totallyTimeSpent" value="13588000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -497,7 +502,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="服务调用" />
-    <option name="LAST_COMMIT_MESSAGE" value="服务调用" />
+    <MESSAGE value="添加断路器" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加断路器" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../pj-discovery/pom.xml">
@@ -617,8 +623,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../pj-feign/src/main/java/com/tcpj/pj/pjfeign/PjFeignApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="135">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#435#436#0" expanded="true" />
