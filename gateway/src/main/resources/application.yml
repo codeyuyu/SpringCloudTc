@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: sc-gateway-server
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          # 是否可以通过其他服务的serviceId来转发到具体的服务实例。默认为false
+          # 为true,自动创建路由,路由访问方式：http://Gateway_HOST:Gateway_PORT/大写的serviceId/**，其中微服务应用名默认大写访问
+          enabled: true
+      routes:
+        - id: host_route
+          uri: http://httpbin.org:80/get
+          predicates:
+            - Host=**.csdn.** # 请求域名携带csdn的,则转发
+        - id: query_route
+          uri: http://httpbin.org:80/get
+          predicates:
+            - Query=username, zzz* # 请求参数含有username,且值满足zzz开头的,则转发(对值的匹配可以省略)
+        - id: header_route
+          uri: http://httpbin.org:80/get
+          predicates:
+            - Header=request, \d+ # 如果请求头含有request,且为数字,则转发
+
+
+
+
+
+
+server:
+  port: 9000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+logging:
+  level:
+    org.springframework.cloud.gateway: debug
